@@ -50,6 +50,9 @@ h1 {
   border-style: none;
 }
 
-.btn-increase a:hover {
-  color: aqua;
+.btn-increase:hover {
+  color: rgb(4, 160, 25);
+}
+.btn-decrease:hover {
+  color: rgb(223, 87, 9);
 }

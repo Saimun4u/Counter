@@ -8,19 +8,20 @@ body {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  /* display: flex; */
+  min-width: 100%;
   margin: 0;
 }
 
 h1 {
   font-size: 58px;
-  padding: 60px 60px;
+  padding: 30px 20px;
   text-align: center;
 }
 
 .container {
   text-align: center;
   margin: 0 auto;
+  padding: ;
 }
 
 #board {
@@ -36,23 +37,44 @@ h1 {
   border: 3px solid #fff;
 }
 
-.btn-increase {
-  padding: 30px 30px;
-  font-size: 45px;
-  margin-right: 0.9em;
-  border-style: none;
-}
-
-.btn-decrease {
-  padding: 30px 30px;
-  font-size: 45px;
+.increase {
+  padding: 5px 5px;
+  font-size: 28px;
   margin-left: 0.9em;
-  border-style: none;
+  border-radius: 5px;
+  border-style: 2px solid #444;
 }
 
-.btn-increase:hover {
+.decrease {
+  padding: 5px 5px;
+  font-size: 28px;
+  margin-left: 0.9em;
+  border-radius: 5px;
+  border-style: 2px solid #444;
+}
+
+.reset {
+  padding: 5px 5px;
+  font-size: 28px;
+  margin-left: 0.9em;
+  border-radius: 5px;
+  border-style: 2px solid #444;
+}
+
+.increase:hover {
   color: rgb(4, 160, 25);
 }
-.btn-decrease:hover {
+
+.reset:hover {
+  color: rgb(97, 209, 218);
+}
+
+.decrease:hover {
   color: rgb(223, 87, 9);
+}
+
+#value {
+  font-size: 58px;
+  display: block;
+  padding: 40px 20px;
 }

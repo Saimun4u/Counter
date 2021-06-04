@@ -19,12 +19,37 @@ h1 {
 }
 
 .container {
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   margin: 0 auto;
 }
 
 #board {
   justify-items: center;
   align-items: center;
+  padding-top: 30px;
+}
+
+.userhit {
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 38px;
+  border: 3px solid #fff;
+}
+
+.btn-increase {
+  padding: 30px 30px;
+  font-size: 45px;
+  margin-right: 0.9em;
+  border-style: none;
+}
+
+.btn-decrease {
+  padding: 30px 30px;
+  font-size: 45px;
+  margin-left: 0.9em;
+  border-style: none;
+}
+
+.btn-increase a:hover {
+  color: aqua;
 }

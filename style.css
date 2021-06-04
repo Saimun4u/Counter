@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  font-family: 'Alfa Slab One', cursive;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* display: flex; */
+  margin: 0;
+}
+
+h1 {
+  font-size: 58px;
+  padding: 60px 60px;
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#board {
+  justify-items: center;
+  align-items: center;
+}
